@@ -1,0 +1,27 @@
+{
+  "name": "@kjj6198/eslint-config",
+  "version": "0.0.1",
+  "description": "My personal eslint config, basically follow aribnb guide but revise some rules for more flexibility.",
+  "main": "index.js",
+  "author": "Kalan",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-plugin-react": "^7.12.4",
+    "in-publish": "^2.0.0",
+    "react": "^16.7.0",
+    "safe-publish-latest": "^1.1.2"
+  }
+}
