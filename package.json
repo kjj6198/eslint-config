@@ -1,6 +1,6 @@
 {
   "name": "@kalanyei/eslint-config",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "My personal eslint config, basically follow aribnb guide but revise some rules for more flexibility.",
   "main": "index.js",
   "author": "Kalan",
