@@ -1,6 +1,6 @@
 {
-  "name": "@kjj6198/eslint-config",
-  "version": "0.0.1",
+  "name": "@kalanyei/eslint-config",
+  "version": "0.0.5",
   "description": "My personal eslint config, basically follow aribnb guide but revise some rules for more flexibility.",
   "main": "index.js",
   "author": "Kalan",
@@ -15,11 +15,15 @@
     "node": ">= 8"
   },
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.1.0"
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-react": "^7.12.4"
   },
   "devDependencies": {
     "eslint": "^5.12.1",
-    "eslint-plugin-react": "^7.12.4",
     "in-publish": "^2.0.0",
     "react": "^16.7.0",
     "safe-publish-latest": "^1.1.2"
